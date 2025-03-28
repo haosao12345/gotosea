@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于本站 - WebStack.cc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            overflow-y: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            color: #666;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #4d8dff;
+            color: white;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #3a7be8;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #888;
+            font-size: 0.875rem;
+        }
+        .update-list {
+            margin-bottom: 1rem;
+        }
+        .update-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #eee;
+        }
+        .update-date {
+            font-weight: 600;
+            color: #4d8dff;
+        }
+        .code {
+            font-family: monospace;
+            background-color: #f5f5f5;
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+            font-size: 0.9rem;
+            color: #e53e3e;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container bg-white rounded-lg shadow-sm">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="#f59e0b">
+                <path d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2M4,4V20H20V4H4M6,6H18V12H6V6M6,14H18V18H6V14M8,8V10H16V8H8M8,16V16.8H16V16"></path>
+            </svg>
+        </div>
+        
+        <h1>关于 WebStack.cc</h1>
+        
+        <div class="section">
+            <h2>网站介绍</h2>
+            <p>WebStack.cc 是一个专为设计师打造的网址导航平台，集合了设计师常用的网站、工具、资源，帮助设计师提高工作效率，获取灵感，学习新知识。</p>
+            <p>本站始建于2018年，旨在为广大设计师提供一个简洁高效的设计资源获取渠道，经过多年发展，已成为国内知名的设计师导航网站。</p>
+        </div>
+        
+        <div class="section">
+            <h2>技术栈</h2>
+            <ul>
+                <li>HTML5 - 网站结构</li>
+                <li>Tailwind CSS - 样式与布局</li>
+                <li>JavaScript (原生) - 交互与动态效果</li>
+                <li>Font Awesome - 图标资源</li>
+            </ul>
+            
+            <p>本站采用纯前端静态网页实现，不依赖后端数据库，便于部署和维护。响应式设计确保在各种设备上都能获得良好的浏览体验。</p>
+        </div>
+        
+        <div class="section">
+            <h2>文件结构</h2>
+            <p>本项目采用清晰的文件结构组织代码：</p>
+            <ul>
+                <li><span class="code">index.html</span> - 主页面</li>
+                <li><span class="code">about.html</span> - 关于本站页面</li>
+                <li><span class="code">css/styles.css</span> - 自定义样式</li>
+                <li><span class="code">js/main.js</span> - 交互脚本</li>
+                <li><span class="code">images/</span> - 网站图标和资源</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>功能特点</h2>
+            <ul>
+                <li>精选优质设计资源，包括UI灵感、设计工具、学习资料等</li>
+                <li>简洁美观的界面设计，符合设计师审美</li>
+                <li>分类合理，查找便捷</li>
+                <li>响应式布局，适配各种设备</li>
+                <li>定期更新资源，保持内容的新鲜度</li>
+                <li>开源代码，可自由部署和定制</li>
+                <li>左侧菜单与内容区域联动滚动</li>
+                <li>卡片悬停效果与统一的高度设计</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>最近更新记录</h2>
+            <div class="update-list">
+                <div class="update-item">
+                    <p><span class="update-date">2025-03-28</span> 添加菜单与内容区域联动功能</p>
+                    <ul>
+                        <li>实现点击左侧菜单，右侧内容区域自动滚动到对应位置</li>
+                        <li>为菜单项添加 <span class="code">data-section</span> 属性</li>
+                        <li>为内容区域添加对应的 <span class="code">id</span> 属性</li>
+                        <li>添加平滑滚动效果</li>
+                    </ul>
+                </div>
+                <div class="update-item">
+                    <p><span class="update-date">2025-03-28</span> 优化菜单与内容区域结构</p>
+                    <ul>
+                        <li>优化带子菜单的菜单项处理方式，点击子菜单项跳转到对应内容</li>
+                        <li>修改内容区域标题与图标，使其与菜单项保持一致</li>
+                        <li>调整"关于本站"菜单项，使其通过链接跳转至关于页面</li>
+                    </ul>
+                </div>
+                <div class="update-item">
+                    <p><span class="update-date">2025-03-27</span> 统一卡片高度与样式</p>
+                    <ul>
+                        <li>为所有卡片设置统一的高度</li>
+                        <li>优化长文本溢出处理</li>
+                        <li>添加卡片悬停效果</li>
+                    </ul>
+                </div>
+                <div class="update-item">
+                    <p><span class="update-date">2025-03-26</span> 初始版本上线</p>
+                    <ul>
+                        <li>完成基础界面设计和布局</li>
+                        <li>实现左侧菜单栏折叠/展开功能</li>
+                        <li>添加响应式布局，适配移动端</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>网站愿景</h2>
+            <p>我们希望通过WebStack.cc，连接全球优质设计资源，助力设计师成长，推动设计行业发展。</p>
+            <p>未来，我们将继续完善网站功能，增加更多优质资源，打造更好的用户体验，成为设计师日常工作中不可或缺的工具。</p>
+        </div>
+        
+        <div class="section">
+            <h2>开源与贡献</h2>
+            <p>WebStack.cc 是一个开源项目，你可以在 GitHub 上找到我们的代码库，欢迎贡献代码、提交问题或建议。</p>
+            <p class="text-center mt-6">
+                <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" class="btn">
+                    <i class="fab fa-github mr-2"></i>GitHub 项目
+                </a>
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>联系我们</h2>
+            <p>如果你有任何问题、建议或合作意向，欢迎通过以下方式联系我们：</p>
+            <ul>
+                <li>Email: contact@webstack.cc</li>
+                <li>GitHub Issues: <a href="https://github.com/WebStackPage/WebStackPage.github.io/issues" class="text-blue-500 hover:underline" target="_blank">提交问题</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 WebStack.cc - 设计师网址导航</p>
+            <p><a href="index.html" class="text-blue-500 hover:underline">返回首页</a></p>
+        </div>
+    </div>
+</body>
+</html> 

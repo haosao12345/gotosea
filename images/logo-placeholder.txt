@@ -1,0 +1,26 @@
+在这个目录中，您需要添加以下图标：
+
+1. logo.png - WebStack网站的logo
+2. flag-us.png - 美国国旗图标
+3. 各个网站的图标，如：
+   - dribbble.png
+   - behance.png
+   - uichina.png
+   - zcool.png
+   - pinterest.png
+   - huaban.png
+   - medium.png
+   - uisdc.png
+   - producthunt.png
+   - youtube.png
+   - google.png
+   - aliyun.png
+   - xibu.png
+   - sheji.png
+   - huxiu.png
+   - 36kr.png
+   - shuyingwang.png
+   - dishu.png
+   
+您可以从原网站获取这些图标，或使用任何相似的图标替代。
+图标尺寸建议为32x32像素或64x64像素，保存为PNG格式。 
