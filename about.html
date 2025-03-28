@@ -131,6 +131,8 @@
                 <li><span class="code">about.html</span> - 关于本站页面</li>
                 <li><span class="code">css/styles.css</span> - 自定义样式</li>
                 <li><span class="code">js/main.js</span> - 交互脚本</li>
+                <li><span class="code">js/config.js</span> - 导航菜单配置</li>
+                <li><span class="code">js/siteData.js</span> - 网站内容配置</li>
                 <li><span class="code">images/</span> - 网站图标和资源</li>
             </ul>
         </div>
@@ -146,12 +148,24 @@
                 <li>开源代码，可自由部署和定制</li>
                 <li>左侧菜单与内容区域联动滚动</li>
                 <li>卡片悬停效果与统一的高度设计</li>
+                <li>菜单和内容通过配置文件管理，便于维护和扩展</li>
+                <li>无需修改代码，只需更新配置文件即可添加或修改内容</li>
             </ul>
         </div>
         
         <div class="section">
             <h2>最近更新记录</h2>
             <div class="update-list">
+                <div class="update-item">
+                    <p><span class="update-date">2025-03-29</span> 实现导航菜单和网站内容数据配置化</p>
+                    <ul>
+                        <li>添加 <span class="code">config.js</span> 文件，用于配置导航菜单结构</li>
+                        <li>添加 <span class="code">siteData.js</span> 文件，用于配置网站内容数据</li>
+                        <li>优化 <span class="code">main.js</span>，实现从配置文件动态生成导航菜单和网站内容</li>
+                        <li>简化 <span class="code">index.html</span>，移除静态内容，通过 JS 动态生成</li>
+                        <li>提高网站的可维护性和扩展性</li>
+                    </ul>
+                </div>
                 <div class="update-item">
                     <p><span class="update-date">2025-03-28</span> 添加菜单与内容区域联动功能</p>
                     <ul>
