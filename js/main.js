@@ -101,7 +101,7 @@ function buildMenu() {
     const aboutLink = document.createElement('a');
     aboutLink.href = websiteConfig.about.url;
     aboutLink.className = 'menu-item external-link';
-    aboutLink.setAttribute('target', '_blank');
+    aboutLink.setAttribute('target', '_self');
     
     const aboutIcon = document.createElement('i');
     aboutIcon.className = `${websiteConfig.about.icon} menu-icon`;
@@ -164,6 +164,15 @@ function buildSiteContent() {
         sectionData.sites.forEach(site => {
             const siteCard = document.createElement('div');
             siteCard.className = 'site-card';
+            
+            // 添加点击事件，打开对应的 URL
+            if (site.URL) {
+                siteCard.style.cursor = 'pointer';
+                siteCard.setAttribute('title', `点击访问: ${site.URL}`);
+                siteCard.addEventListener('click', function() {
+                    window.open(site.URL, '_self');
+                });
+            }
             
             const cardContent = document.createElement('div');
             cardContent.className = 'flex items-center p-3';
